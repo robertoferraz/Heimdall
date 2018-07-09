@@ -646,7 +646,7 @@ open class Heimdall {
     fileprivate class func generateKeyPair(_ publicTag: String, privateTag: String, keySize: Int) -> (publicKey: SecKey, privateKey: SecKey)? {
         let privateAttributes = [String(kSecAttrIsPermanent): true,
                                  String(kSecAttrApplicationTag): privateTag] as [String : Any]
-        let publicAttributes = [String(kSecAttrIsPermanent): true,
+        let publicAttributes = [String(kSecAttrIsPermanent): false,
                                 String(kSecAttrApplicationTag): publicTag] as [String : Any]
         
         let pairAttributes = [String(kSecAttrKeyType): kSecAttrKeyTypeRSA,
