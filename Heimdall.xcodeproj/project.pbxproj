@@ -52,14 +52,6 @@
 		8E866C651AE8FBEC005682A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E866C661AE8FBEC005682A2 /* HeimdallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeimdallTests.swift; sourceTree = "<group>"; };
 		8E866C991AE8FCD6005682A2 /* Heimdall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heimdall.swift; sourceTree = "<group>"; };
-		B93B001F20F385E3009975CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B93B002120F385E3009975CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B93B002420F385E3009975CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B93B002620F385E4009975CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B93B002920F385E4009975CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B93B002B20F385E4009975CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B93B003420F385E4009975CF /* testRunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testRunnerTests.swift; sourceTree = "<group>"; };
-		B93B003620F385E4009975CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +103,6 @@
 				8E866C561AE8FBEC005682A2 /* Heimdall */,
 				8E866C631AE8FBEC005682A2 /* HeimdallTests */,
 				8E38307B1AFE176A007E4235 /* CommonCrypto */,
-				B93B001E20F385E3009975CF /* testRunner */,
-				B93B003320F385E4009975CF /* testRunnerTests */,
 				8E866C551AE8FBEC005682A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -161,28 +151,6 @@
 				8E866C651AE8FBEC005682A2 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B93B001E20F385E3009975CF /* testRunner */ = {
-			isa = PBXGroup;
-			children = (
-				B93B001F20F385E3009975CF /* AppDelegate.swift */,
-				B93B002120F385E3009975CF /* ViewController.swift */,
-				B93B002320F385E3009975CF /* Main.storyboard */,
-				B93B002620F385E4009975CF /* Assets.xcassets */,
-				B93B002820F385E4009975CF /* LaunchScreen.storyboard */,
-				B93B002B20F385E4009975CF /* Info.plist */,
-			);
-			path = testRunner;
-			sourceTree = "<group>";
-		};
-		B93B003320F385E4009975CF /* testRunnerTests */ = {
-			isa = PBXGroup;
-			children = (
-				B93B003420F385E4009975CF /* testRunnerTests.swift */,
-				B93B003620F385E4009975CF /* Info.plist */,
-			);
-			path = testRunnerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,25 +406,6 @@
 			targetProxy = 8E8AD3231BE4B7A60099C024 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B93B002320F385E3009975CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B93B002420F385E3009975CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B93B002820F385E4009975CF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B93B002920F385E4009975CF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		59B002131BE2D1410020EF3D /* Debug */ = {
